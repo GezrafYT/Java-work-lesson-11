@@ -54,7 +54,7 @@ public class Circle {
     public void move(int deltaX, int deltaY)
     {
         Point new_point = new Point(deltaX, deltaY);
-        setCenter(new_point);
+        this.center = new_point;
     }
 
     public boolean equals(Circle other)
