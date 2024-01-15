@@ -9,7 +9,7 @@ public class Circle {
 
     public Circle(Circle other)
     {
-        this.center = new Point(other.center);
+        this.center = other.center;
         this.radius = other.radius;
     }
 
