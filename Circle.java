@@ -53,8 +53,7 @@ public class Circle {
 
     public void move(int deltaX, int deltaY)
     {
-        Point new_point = new Point(deltaX, deltaY);
-        this.center = new_point;
+        this.center = new Point(deltaX, deltaY);
     }
 
     public boolean equals(Circle other)
@@ -90,8 +89,7 @@ public class Circle {
 
     public String toString()
     {
-        return("The center of the circle = (" + this.center + "and the radius = " + this.radius);
+        return("The center of the circle = (" + this.center.getX() + ", " + this.center.getY() + ") " + "and the radius = " + this.radius);
     }
 
 }
-
