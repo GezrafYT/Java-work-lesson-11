@@ -38,7 +38,7 @@ public class Circle {
 
     public void setCenter(Point center)
     {
-        this.center = getCenter();
+        this.center = center;
     }
 
     public double perimeter()
