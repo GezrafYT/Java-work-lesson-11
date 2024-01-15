@@ -20,9 +20,9 @@ public class Circle {
     }
 
 
-    public double getRadius(double radius)
+    public double getRadius()
     {
-        return radius;
+        return this.radius;
     }
 
     public void setRadius(double radius)
